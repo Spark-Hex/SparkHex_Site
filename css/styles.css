@@ -24,6 +24,7 @@
 }
 
 .footer {
+	position:absolute;
 	bottom: 0;
 	width: 100%;
 	text-align: center;
@@ -38,13 +39,23 @@
 
 .container, .row{
 	padding: 25px;
+	padding-bottom: 150px;
 }
 
-img{
+.container, .row img{
 	animation-name: fade-in;
 	animation-duration: 1s;
 	animation-timing-function: ease-in-out;
 	animation-fill-mode: both;
+}
+
+p, b{
+	margin: 15px;
+}
+
+body {
+	position: relative;
+	min-height: 100vh;
 }
 
 table {
