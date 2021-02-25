@@ -1,0 +1,12 @@
+html,body{top:0;left:0;margin:0;}
+
+body{background-color: #CFF4C1; /*#d4eeff;*/}
+
+nav{position:fixed; width:100%;
+	/*background-color: #068d9d;*/
+	/*background-color: #0e1428;*/
+}
+nav > div{padding:1rem 11%;}
+img.home{height:2.7rem;}
+
+main{padding-top:5rem; min-height:95vh;}
